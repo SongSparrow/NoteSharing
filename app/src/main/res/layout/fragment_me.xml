@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.me.MeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fixed_margin"
+        android:layout_marginEnd="@dimen/fixed_margin"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+        <!--email-->
+        <LinearLayout
+            android:id="@+id/lat_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_email_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/email"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="3334684495@qq.com"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:scrollHorizontally="false"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid"
+                />
+        </LinearLayout>
+        <!--id-->
+        <LinearLayout
+            android:id="@+id/lat_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_user_id_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/user_id"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="20171742"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+        </LinearLayout>
+        <!--QQ-->
+        <LinearLayout
+            android:id="@+id/lat_qq"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_qq_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/qq"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/txt_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="3334684495"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--WeChat-->
+        <LinearLayout
+            android:id="@+id/lat_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/txt_wechat_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/wechat"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="zxsz13730094606"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--Nickname-->
+        <LinearLayout
+            android:id="@+id/lat_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/txt_nickname_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/nickname"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="轻舟破沧浪"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--University-->
+        <LinearLayout
+            android:id="@+id/lat_university"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/txt_university_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/university"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_university"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="重庆大学"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--major-->
+        <LinearLayout
+            android:id="@+id/lat_major"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/txt_major_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/major"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <TextView
+                android:id="@+id/txt_major"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="软件工程"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--signature-->
+        <LinearLayout
+            android:id="@+id/lat_signature"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_signature_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/signature"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/txt_signature"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="爱吃辣条123456789012435"
+                android:lines="1"
+                android:maxWidth="@dimen/max_width"
+                android:ellipsize="end"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+        <!--password-->
+        <LinearLayout
+            android:id="@+id/lat_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_password_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fixed_margin"
+                android:text="@string/password"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid"
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_go_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/fixed_margin"
+    android:layout_marginEnd="@dimen/fixed_margin"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edt_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/fixed_margin"
+        android:layout_marginBottom="@dimen/fixed_margin"
+        android:autofillHints="@string/user_email"
+        android:gravity="center_vertical"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_mid" />
+
+    <EditText
+        android:id="@+id/edt_pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/fixed_margin"
+        android:layout_marginBottom="@dimen/fixed_margin"
+        android:autofillHints="@string/user_email"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_mid" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fixed_margin"
+        android:layout_marginBottom="@dimen/fixed_margin"
+        android:onClick="onClickLogin"
+        android:text="@string/login"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_mid" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fixed_margin"
+        android:layout_marginBottom="@dimen/fixed_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:onClick="onClickFP"
+            android:text="@string/fp"
+            android:textSize="@dimen/text_size_mid" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:onClick="onClickRegister"
+            android:text="@string/register"
+            android:textSize="@dimen/text_size_mid" />
+    </LinearLayout>
+</LinearLayout>

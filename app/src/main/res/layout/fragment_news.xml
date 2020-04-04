@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.news.NewsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fixed_margin"
+        android:layout_marginEnd="@dimen/fixed_margin"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lat_add_friend"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txt_add_friend_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/add_friends"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/go"
+                android:src="@drawable/ic_go_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lat_accept_friend"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txt_accept_friend_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/accept_friends"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/go"
+                android:src="@drawable/ic_go_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lat_friend_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txt_friend_list_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/friend_list"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/go"
+                android:src="@drawable/ic_go_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lat_friend_news"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fixed_height"
+            android:layout_marginBottom="@dimen/fixed_line_wth"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txt_friend_news_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/friend_news"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_mid" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/go"
+                android:src="@drawable/ic_go_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

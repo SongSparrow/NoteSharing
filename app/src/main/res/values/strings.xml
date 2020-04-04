@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NoteSharing</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_note">Note</string>
+    <string name="title_me">Me</string>
+    <string name="title_news">News</string>
+    <string name="email">Email</string>
+    <string name="user_id">User ID</string>
+    <string name="qq">QQ</string>
+    <string name="wechat">WeChat</string>
+    <string name="nickname">Nickname</string>
+    <string name="university">University</string>
+    <string name="major">Major</string>
+    <string name="signature">Signature</string>
+    <string name="password">Password</string>
+    <string name="my_upload">My Upload</string>
+    <string name="go">go</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="my_like">My Like</string>
+    <string name="my_appeal">My Appeal</string>
+    <string name="my_comment">My Comment</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="accept_friends">Accept Friends</string>
+    <string name="friend_list">Friend List</string>
+    <string name="friend_news">Friend News</string>
+    <string name="new_qq">New QQ</string>
+    <string name="okay">Okay</string>
+    <string name="new_wechat">New WeChat</string>
+    <string name="new_nickname">New Nickname</string>
+    <string name="new_university">New University</string>
+    <string name="majors">Majors</string>
+    <string name="my_report">My Report</string>
+    <string name="user_email">UserEmail</string>
+    <string name="login">Login</string>
+    <string name="fp">Forget password?</string>
+    <string name="register">Register</string>
+    <string name="empty_user">Empty Information!</string>
+</resources>
